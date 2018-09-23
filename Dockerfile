@@ -1,4 +1,4 @@
-FROM golang:1.11-stretch
+FROM golang:1.10-stretch
 
 RUN go get -u github.com/golang/dep/cmd/dep
 
