@@ -1,4 +1,4 @@
-FROM golang:1.12.4-stretch
+FROM golang:1.12.7-stretch
 
 RUN wget -O - -q https://install.goreleaser.com/github.com/golangci/golangci-lint.sh | sh -s -- -b /usr/bin v1.16.0
 
