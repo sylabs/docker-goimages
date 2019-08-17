@@ -1,4 +1,4 @@
-FROM golang:1.11.12-alpine3.9
+FROM golang:1.11.13-alpine3.9
 
 RUN apk add --update git alpine-sdk automake libtool linux-headers libarchive-dev util-linux-dev libuuid openssl-dev gawk sed cryptsetup
 
