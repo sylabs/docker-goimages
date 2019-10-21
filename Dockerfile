@@ -1,4 +1,4 @@
-FROM golang:1.13.1-buster
+FROM golang:1.13.3-buster
 
 RUN wget -O - -q https://install.goreleaser.com/github.com/golangci/golangci-lint.sh | sh -s -- -b /usr/bin v1.20.0
 
